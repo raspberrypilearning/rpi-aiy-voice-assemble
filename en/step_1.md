@@ -1,121 +1,41 @@
-# New project
+## Setting up the AIY Voice Kit
 
-Each project contains a set of directories for each language, you're set up now with an `en` directory that contains the necessary files to get you going.
+- To begin you need to use the plastic *standoffs* to help support the Voice Kit HAT, when it is attached to the Raspberry Pi. Insert the standoffs into the mounting holes opposite the GPIO pins.
 
-* [meta.yml](#metayml)
-* [Steps - step_1.md, step_2.md, etc](#steps)
+![standoff](images/standoff.jpg)
 
+- You can now place the HAT onto the Raspberry Pi. Just make sure that the pins are all aligned.
 
-## meta.yml
+![attach hat](images/hat-attached.jpg)
 
-The `meta.yml` file sets lots of basic information for the project.
+- Next you can attach the speaker to the kit. This needs to be wired in a particular way. The red wire needs to be connected into the hole closest to the Raspberry Pi's Ethernet port. The black wire goes into the other hole. Use a Phillip's screwdriver to secure the wires in place.
 
-``` yml
-title: The title of the project
-hero_image: images/banner.png # The image used on the listing view
-subtitle: Project subtitle # Used on the listing view
-description: Project description # Used on the listing view
-published: false # A boolean - `true` or`false` - that controls whether the project will appear on the listing view
-steps: # A list of all the steps
-  - title: How to get started # Used as the sidebar title for the step
-    duration: 60 # Not used yet
-```
+![attach speaker](images/speaker-attached.png)
 
-## Steps
+- Now it's time to connect the microphone to it's leads. The connectors only fit one way, so this shouldn't be too difficult.
 
-* [Links](#links)
-* [Resources](#resources)
-* [Images](#images)
-* [Challenges](#challenges)
-* [Definitions](#definitions)
-* [Hints](#hints)
-* [Collapsed ingredients](#collapsed-ingredients)
+![attach microphone](images/microphone.jpg)
 
-Project steps are written in the [Kramdown](https://kramdown.gettalong.org/) variety of markdown. There is a [quick reference guide](https://kramdown.gettalong.org/quickref.html) and [full syntax documentation](https://kramdown.gettalong.org/syntax.html). A [custom kramdown extension](https://github.com/RaspberryPiFoundation/kramdown_rpf) is used for hints, challenges & collapsed ingredients.
+- The trickiest part is assembling the button. You'll need the button and the LED housing to begin with
 
-### Links, resources & images
+![button 1](images/button-1.jpg)
 
-See [kramdown documentation](https://kramdown.gettalong.org/quickref.html#links-and-images) for more details.
+- The LED housing can be inserted into the button and twisted to secure it in place.
 
-#### Links
+![button 2](images/button-2.jpg)
 
-A [link](http://kramdown.gettalong.org) to the kramdown homepage.
+- Then the switch needs attaching. This can be awkward. The switch needs to align it's holes with the pegs on the LED housing. Just make sure that thee small button (here it is yellow) is positioned closest to the button.
 
-#### Resources
+![button 3](images/button-3.png)
 
-A [link to a file in the resources directory](resources/worksheet.pdf){:download='filename.pdf'}. The download part will make the file automatically download rather than be rendered in the browser, the filename you'd like the file to be saved with is the second bit after the `=`. The `/slash learning` application will ensure the resource is available.
+- Now you can attach the leads to the button.
 
-#### Images
+![button 4](images/button-4.jpg)
 
-![Banner image](images/banner.png) - the link text becomes the alternative text for the image. The `/slash learning` application will ensure the image is available.
+- Attach the leads as shown in the image below.
 
-#### Challenges
+![button 5](images/button-5.png)
 
-``` markdown
---- challenge ---
+- To finish off, attach the microphone and the button to the hat as shown.
 
-## Challenge: Improving your drum
-
-* Any markdown in here
-* will be parsed as normal
-
---- /challenge ---
-```
-
-
-### Definitions
-
-Definitions can be written using HTML abbreviations, which are a standard part of [kramdown](https://kramdown.gettalong.org/quickref.html#abbreviations)
-
-```
-To do this you might require a variable or a two word definition.
-
-*[variable]: An object that has a name and stores a value.
-
-*[two word]: Definitions are markdown, and can have [links](http://kramdown.gettalong.org) etc
-```
-
-
-### Hints
-
-A header for the hint, and all the html markup for hints will be automatically added.
-
-```
---- hints ---
---- hint ---
-
-Here's a hint of how to do this project.
-
-Any markdown you like within a hint:
-* item 1
-* item 2
-
---- /hint ---
---- hint ---
-Hint 2
-
---- /hint ---
---- hint ---
-
-Hint 3
---- /hint ---
---- hint ---
-Hint 4
---- /hint ---
-
---- /hints ---
-```
-
-### Collapsed ingredients
-
-Set the title and the image from within the `collapse` area. The image must exist in **this** project, not the ingredient.
-
---- collapse ---
----
-title: Downloading and installing the Raspberry Pi software
-image: images/scratch.png
----
-
-[[[generic-scratch-new-project]]]
-
---- /collapse ---
+![assembled](images/assembled.jpg)
