@@ -2,7 +2,7 @@
 
 - To begin you need to use the plastic *standoffs* to help support the Voice Kit HAT, when it is attached to the Raspberry Pi. Insert the standoffs into the mounting holes opposite the GPIO pins.
 
-![standoff](images/stand-off.jpg)
+![standoff](images/stand-off.png)
 
 - You can now place the HAT onto the Raspberry Pi. Just make sure that the pins are all aligned.
 
