@@ -1,10 +1,12 @@
-title: rpi-aiy-voice-assemble
+title: Assemble the AIY Voice Kit
 hero_image: images/banner.png
-subtitle: rpi-aiy-voice-assemble subtitle
-description: rpi-aiy-voice-assemble description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+description: How to assemble the AIY Voice Kit
+original_url:
 theme: cc-prototype
-published: false
+duration: 1
+listed: false
+ingredient: true
+interests:
+technology: "raspberry pi, aiy, voice kit"
 steps:
-  - title: Step one
-    duration: 60
+  - title: Assemble the kit
