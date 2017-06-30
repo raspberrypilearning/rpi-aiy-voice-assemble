@@ -22,7 +22,7 @@
 
 	![button 2](images/button-2.jpg)
 
-- Then the switch needs attaching. This can be awkward. The holes of the switch need to align with the pegs on the LED housing. Just make sure that the small button (here, it is yellow) is positioned closest to the button.
+- Then the switch needs attaching. This can be awkward. The holes of the switch need to align with the pegs on the LED housing. Just make sure that the small switch (here in yellow) is positioned closest to the button.
 
 	![button 3](images/button-3.png)
 
