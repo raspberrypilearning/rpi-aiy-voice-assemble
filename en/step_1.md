@@ -1,4 +1,4 @@
-- To begin you need to use the plastic **standoffs** to help support the Voice Kit HAT when it is attached to the Raspberry Pi. Insert the standoffs into the mounting holes opposite the GPIO pins.
+- First, you need to use the plastic **standoffs** to help support the Voice Kit HAT when it is attached to the Raspberry Pi. Insert the standoffs into the mounting holes opposite the GPIO pins.
 
 	![standoff](images/stand-off.png)
 
